@@ -1,0 +1,9 @@
+将视频格式转为H264格式
+	test.mp4 -c copy test.h264
+或者：
+	ffmpeg -i test.mp4 -c h264 test.h264
+
+ffmpeg -i test.mp4  -c copy -f h264 output.h264:q
+
+
+ffmpeg -i 20230616_193941.MP4 -c copy -f hevc output.h265
